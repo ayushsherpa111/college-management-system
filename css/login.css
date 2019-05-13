@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box; }
+
+html {
+	height: 100%;
+	width: 100vw;
+	background-color: #000;
+}
+
+body { 
+	background-color: #f6f7f9;
+	padding: 0;
+	margin: 0;
+	height: 88%;
+	font-size: 0.9em;
+	font-family: 'Thasadith', sans-serif; 
+	/*position: relative;*/
+}
+.pri-header {
+	height: 8vh;
+	background-color: #471867;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100vW;
+	box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4);
+
+	/*box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 0.4);*/
+
+}
+
+.logo {
+	width: 60%;
+	display: flex;
+}
+
+.logo img {
+	height: 8vh;
+	padding: 1.8vh;
+}
+
+.wuc {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.logo h1 {
+	display: inline-block;
+}
+
+.log {
+
+}
+
+.ind-main {
+	background-image: url(../images/General/22.PNG);
+	/*background-color: #fffee9;*/
+	height: 99.71vh;
+	width: 100%;
+	/*display: flex;*/
+}
+
+.login-form, .login-desc {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	width: 50vw;
+	/*flex: 1;*/
+	position: absolute;	
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.login-desc {
+	text-align: center;
+	font-size: 1.4em;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	left: 50vw;
+}
+.login-form {
+	width: 50vw;
+}
+.login-form form {
+	width: 45%;
+	background-color: #d8cdd599;
+	padding: 40px 40px 20px;
+	box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.2);
+
+}	
+
+.login-desc div {
+	width: 70%;
+}
+
+.login-desc h1 {
+	font-size: 2em;
+}
+
+.login-form form input[type="text"], .login-form form input[type="password"] {
+		padding: 10px;
+	width: 100%;
+	/*height: 40px;*/
+	/*border-color: #a9a9a9;*/
+	margin: 5px 0 20px; }
+
+.login-form label {
+	display: block;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #29005e;
+	text-align: center;
+	padding: 0px 0px 40px;
+}
+
+.login-form form input[type="submit"] {
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #59008e;
+	color: #fff;
+	width: 100%;
+	border: none;
+	border-radius: 2px;
+	/*width: 100%;*/
+	/*height: 40px;*/
+	/*border-color: #a9a9a9;*/
+	/*margin: 5px 0 20px; */
+	/*background-color: red;*/
+}
+
+.login-form form input[type="submit"]:hover {
+	background-color: #39006e;
+}
+
+.login-form p {
+	text-align: center;
+	padding: 30px 0px 0px;
+	font-size: 1.1em;
+}
+
+
+.loginFailed {
+	color: #f00;
+	font-weight: bold;
+}
+
+
+ #particles-js canvas {
+ 	height: 100%;
+ }
